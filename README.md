@@ -64,3 +64,11 @@ Any static assets, like images, can be placed in the `public/` directory.
 ## TailwindCSS
 
 TailwindCSS is already configured in this repo, so you can start using it without any installation.
+
+
+## ShadCN UI Integration
+
+[shacdn UI](https://ui.shadcn.com/) is integrated with the this project based on the instruction [here](https://ui.shadcn.com/docs/installation/astro).
+
+> **_NOTE:_**  globals.css file has to be imported to all the pages, this seems to be a [bug](https://github.com/shadcn-ui/ui/issues/4531).
+
